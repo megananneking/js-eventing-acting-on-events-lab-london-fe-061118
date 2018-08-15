@@ -1,4 +1,4 @@
-var dodger = document.getElementById('dodger')
+var dodger = document.getElementById('dodger');
 
 dodger.style.backgroundColor = "pink"
 
@@ -13,7 +13,7 @@ function moveDodgerRight() {
 
 document.addEventListener('keydown', function(e) {
   if (e.which === 39){
-    moveDodgerRight()
+    moveDodgerRight();
   }
 }
-)
+);
